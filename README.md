@@ -40,11 +40,10 @@ We encourage community contributions to help grow and improve this repository! W
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
 ## Contact
-
-
+- Email: [tunahan.ali.ozturk@outlook.com](mailto:tunahan.ali.ozturk@outlook.com)
+- LinkedIn: [tunahan-ali-ozturk](https://www.linkedin.com/in/tunahan-ali-ozturk)
 - Project Link: [https://github.com/Moongazing/aws-dotnet8](https://github.com/Moongazing/aws-dotnet8)
 
 ## Acknowledgments
 
 - [AWS SDK for .NET](https://aws.amazon.com/sdk-for-net/)
-- [Contributors and supporters]
