@@ -23,7 +23,7 @@ Welcome to the AWS .NET Core 8 Examples repository! This repository serves as a 
 
 1. Clone this repository:
 2. Navigate to the service directory you're interested in, for example:
-3. 3. Follow the README in the service directory to set up your environment.
+3. Follow the README in the service directory to set up your environment.
 
 ## Contributing
 
