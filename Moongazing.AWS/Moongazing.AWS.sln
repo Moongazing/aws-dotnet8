@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aws-sqs", "aws-sqs", "{3F7B2931-C55D-4EF9-B5F2-5B78196D5927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.SQS.Publisher", "aws-sqs\Moongazing.SQS.Publisher\Moongazing.SQS.Publisher.csproj", "{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.SQS.Consumer", "aws-sqs\Moongazing.SQS.Consumer\Moongazing.SQS.Consumer.csproj", "{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8} = {3F7B2931-C55D-4EF9-B5F2-5B78196D5927}
+		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527} = {3F7B2931-C55D-4EF9-B5F2-5B78196D5927}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {057591C4-BD39-4916-8214-4F2EE43C7899}
