@@ -8,12 +8,13 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 var sqsClient = new AmazonSQSClient(new AmazonSQSConfig());
 
-var customer = new Customer
+var customer = new CustomerCreated
 {
     Id = Guid.NewGuid(),
     FirstName = "Tunahan",
     LastName = "Ozturk",
     EmailAddress = "tunahan.ali.ozturk@outlook.com",
+    GitHubUsername = "Moongazing",
     DateOfBirth = new DateTime(2000, 21, 2)
 };
 
@@ -30,7 +31,7 @@ var sendMessageRequest = new SendMessageRequest
             "MessageType", new MessageAttributeValue
             {
                 DataType = "String",
-                StringValue = nameof(Customer)
+                StringValue = nameof(CustomerCreated)
             }
         }
     }

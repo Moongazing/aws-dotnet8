@@ -1,4 +1,4 @@
-﻿namespace Moongazing.SQS.Publisher;
+﻿namespace Moongazing.SQS.Consumer;
 
 public class CustomerCreated
 {

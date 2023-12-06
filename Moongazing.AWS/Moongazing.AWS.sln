@@ -5,9 +5,16 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aws-sqs", "aws-sqs", "{3F7B2931-C55D-4EF9-B5F2-5B78196D5927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.SQS.Publisher", "aws-sqs\Moongazing.SQS.Publisher\Moongazing.SQS.Publisher.csproj", "{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moongazing.SQS.Publisher", "aws-sqs\Moongazing.SQS.Publisher\Moongazing.SQS.Publisher.csproj", "{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.SQS.Consumer", "aws-sqs\Moongazing.SQS.Consumer\Moongazing.SQS.Consumer.csproj", "{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moongazing.SQS.Consumer", "aws-sqs\Moongazing.SQS.Consumer\Moongazing.SQS.Consumer.csproj", "{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moongazing.SQS.CustomersApi", "aws-sqs\Moongazing.SQS.CustomerApi\Moongazing.SQS.CustomersApi.csproj", "{7021B709-700B-462E-A09E-308925CD550D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B7606F2-6073-4EBA-9D9C-AAC4B01E00FB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +30,10 @@ Global
 		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7021B709-700B-462E-A09E-308925CD550D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7021B709-700B-462E-A09E-308925CD550D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7021B709-700B-462E-A09E-308925CD550D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7021B709-700B-462E-A09E-308925CD550D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +41,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6E9EBB84-2B3A-4FD4-BCE8-8256B30607D8} = {3F7B2931-C55D-4EF9-B5F2-5B78196D5927}
 		{9DD36C6B-E8B9-468C-BDA7-B34F58FE7527} = {3F7B2931-C55D-4EF9-B5F2-5B78196D5927}
+		{7021B709-700B-462E-A09E-308925CD550D} = {3F7B2931-C55D-4EF9-B5F2-5B78196D5927}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {057591C4-BD39-4916-8214-4F2EE43C7899}
